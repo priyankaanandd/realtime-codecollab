@@ -292,7 +292,7 @@ import io from 'socket.io-client'
 
 //connection req bhejta h to server  at node side and rreq type is http
 //socket is the object represting the connetion btw client and server
-const socket=io('http://localhost:5000')
+const socket=io('https://realtime-codecollab-0okt.onrender.com')
 
 export const App = () => {
   const [joined,setjoined]=useState(false);

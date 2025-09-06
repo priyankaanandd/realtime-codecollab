@@ -177,7 +177,7 @@ const server=http.createServer(app)
 
 //for hosting
 
-const url = `https://render-hosting-se2b.onrender.com`;
+const url = `https://realtime-codecollab-0okt.onrender.com`;
 const interval = 30000;
 function reloadWebsite() {
   axios
